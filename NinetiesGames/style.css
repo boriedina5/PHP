@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.registrationForm{
+    padding: 25px;
+    border: solid 1px black;
+    box-shadow: 1px, 1px, 2px, 2px, rgb(51, 49, 49); /*Értékek: x, y, elmosás, szórás, szín */
+    min-width: 30%;
+
+}
+
+.registrationForm h4{ /*h4 element is beneath this class*/
+    text-align: center;
+}
+
+.registrationForm label{
+    display: block; /*other value: inline -as much space as the text takes up; */
+    margin-bottom: 5px;
+}
+
+.registrationForm input,
+.registrationForm select,
+.registrationForm textarea {
+  border: 1px solid rgb(179, 178, 178);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px rgb(179, 178, 178);
+  box-sizing: border-box;
+  display: block; /*Behave like a block, every new element will appear in a new row*/
+  margin-bottom: 15px;
+  padding: 3px;
+  width: 100%;
+}
+
+.registrationForm button{
+    background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  width: 30%; /*the whole form's 30%*/
+} 
+
+.registrationForm button:hover{
+  background-color: #3b85f6;
+  border-color: #3383fb;
+  cursor: pointer;
+    
+}
